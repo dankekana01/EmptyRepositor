@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta Charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="contact-container">
+<form action="" class="contact">
+<div class="contact-title">
+<h2>Get in touch</h2>
+<hr></hr>
+
+</div>
+
+<form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+    <input type="hidden" name="access_key" value="8bcbc946-68e5-4b0f-83e7-09d480ccfecb">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <button type="submit">Submit Form</button>
+
+    <div id="result"></div>
+
+</form>
+
+<script src="csript.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

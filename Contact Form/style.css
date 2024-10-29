@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2eadf;
+}
+contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-text: center;
+}
+contact-title h2 {
+  color: #a362aa;
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #a362aa;
+}
+.contact-inputs {
+  width: 400px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #666;
+  border-radius: 20px;
+  padding: 20px;
+}
+.contact textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+}
+.contact inputs:focus {
+  border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+}
